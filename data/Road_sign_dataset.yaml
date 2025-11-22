@@ -1,0 +1,29 @@
+train: /content/drive/MyDrive/Road_sign_dataset/images/train 
+
+#val:  /content/drive/MyDrive/Colab_Notebooks/Pipe_defect_detection/Updated_FW_V5_Dataset/images/val
+val: /content/drive/MyDrive/Road_sign_dataset/images/val
+
+# number of classes
+#nc: 15
+
+# class names
+names:
+  0: Encrustation(E,3)
+  1: Ferrule(Fr,2) #
+  2: Joint_Displacement(JD,4)
+  3: Surface_damage(S,2)
+  4: Root_Blockage(R,3)
+  5: Sludge_Accumulation(Sl,3)
+  6: Stone(St,3)
+  7: Partial_Blockage (B,4)
+  8: Complete Blockage (B,4) 
+  9: Fracture_(S,3)
+  10: Infiltration (IS,3)
+  11: Deformed (D,3)
+  12: Crack_L (CL,1)
+  13: Crack_C (CC,1)
+#["Encrustation(E,3)","Ferrule(Fr,2)","Joint_Displacement(JD,4)", "Surface_Damage(S,3)","Root_Blockage(R,3)","Sludge_Accumulation(Sl,3)","Stone(St,3)"]
+
+#new road_sign+4 updated points are : Infiltration, Deformation, Crack_L, Crack_C
+
+#update number2: augmented Infiltration and encrustation unreadability corrected

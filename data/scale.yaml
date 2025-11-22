@@ -1,0 +1,33 @@
+train: /content/drive/MyDrive/Solinas/Scale/images/train
+
+val: /content/drive/MyDrive/Solinas/Scale/images/val
+
+
+# class names
+names:
+  0: Encrustation(DEE,3)
+  1: Ferrule(H,4) #
+  2: Joint_Displacement_large(JDL,4)
+  3: Surface_damage(SW,3)
+  4: Root_Blockage(RF,3)
+  5: Accumulation(DE,3)
+  6: Stone(OBB,4)
+  7: Partial_Blockage(OBP,3)
+  8: Complete Blockage(OBZ,4) 
+  9: Fracture(F,4)
+  10: Infiltration(IR,4)
+  11: Deformed(D,4)
+  12: Crack(CL,2)
+  13: Joint_Displacement_medium(JDM,3)
+  14: Broken(B,4)
+  15: Collapse(XP,5)
+  16: Fouling(DEF,3)
+  17: Gravel(INGG,3)
+  18: Vermin(V,3)
+  19: Attached_deposit(DEZ,3)
+ 
+ 
+  
+
+
+

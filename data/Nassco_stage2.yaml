@@ -1,0 +1,49 @@
+train: C:/Users/User/Desktop/Nassco_stage1/images/train
+
+#val:  /content/drive/MyDrive/Colab_Notebooks/Pipe_defect_detection/Updated_FW_V5_Dataset/images/val
+val: C:/Users/User/Desktop/Nassco_stage1/images/val
+
+# number of classes
+#nc: 9
+
+names:
+  0: Encrustation(DAE,3) 
+  1: Ferrule(H,2) 
+  2: Joint_Displacement(JD,4) #not present
+  3: Surface_damage(SRI,2) 
+  4: Root_Blockage(RFB,3)
+  5: Sludge_Accumulation(DSGV,3)
+  6: Stone(OBB,4)
+  7: Partial_Blockage (PB,3) #not present
+  8: Complete Blockage (CB,4) #not present
+  9: Fracture_(F,3)
+  10: Infiltration (IG,3)
+  11: Deformed (D,3)
+  12: Crack_L (CL,1)
+  13: Crack_C (CC,1)
+
+
+  ##update : No Joint, stone , partial , complete Blockage
+
+
+
+# class names
+# names:
+#   0: Encrustation(DAE,3)
+#   1: Ferrule(H,2) 
+#   2: Surface_damage(SRI,2) # 3:2
+#   3: Root_Blockage(RFB,3) # 4:3
+#   4: Sludge_Accumulation(DSGV,3) # 5:4 
+#   5: Fracture_(F,3) # 9:5
+#   6: Infiltration (ID,3) # 10:6
+#   7: Deformed (D,3) # 11:7
+#   8: Crack_L (CL,1) # 12:8
+#   9: Crack_C (CC,1) # 13:9
+
+
+#update : No Joint, stone , partial , complete Blockage
+#the comments are old numbering similiar to Road_sign
+
+
+
+
