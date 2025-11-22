@@ -1,0 +1,27 @@
+#train: /content/drive/MyDrive/Wrc_sewer_stage1/images/train
+
+#val:  /content/drive/MyDrive/Colab_Notebooks/Pipe_defect_detection/Updated_FW_V5_Dataset/images/val
+#val: /content/drive/MyDrive/Wrc_sewer_stage1/images/val
+
+# number of classes
+#nc: 15
+
+# class names
+names:
+  0: Encrustation(DEE,3)
+  1: Ferrule(H,4) #
+  2: Joint_Displacement(JD,4)
+  3: Surface_damage(SW,3)
+  4: Root_Blockage(R,3)
+  5: Sludge_Accumulation(DER,3)
+  6: Ferrule(H,4)
+  7: Partial_Blockage (PB,3)
+  8: Complete Blockage (CB,4) 
+  9: Fracture_(F,4)
+  10: Infiltration (ID,4)
+  11: Deformed (D,4)
+  12: Crack_L (CL,2)
+  13: Crack_C (CC,2)
+
+
+

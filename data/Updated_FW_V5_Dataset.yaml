@@ -1,0 +1,25 @@
+train: /content/drive/MyDrive/Colab_Notebooks/Pipe_defect_detection/Updated_FW_V5_Dataset/images/train 
+val:  /content/drive/MyDrive/Colab_Notebooks/Pipe_defect_detection/Updated_FW_V5_Dataset/images/val
+
+
+# number of classes
+#nc: 15
+
+# class names
+names:
+    0: Surface_damage (S,2)
+    1: Crack_C (CC,1)
+    2: Crack_L (CL,1)
+    3: Fracture (F,3)
+    4: Collapse (XP,5)
+    5: Deformed (D,3)
+    6: Settled deposits (DE,3)
+    7: Stone (St,3)
+    8: Partial_Blockage (B,3)
+    9: Complete_Blockage (B,4)
+    10: Infiltration (IS,3)
+    11: Joint_Displacement (JD,2)
+    12: Root_Blockage (R,3)
+    13: Encrustation (E,3)
+    14: Hole (H,2)
+#["Encrustation(E,3)","Ferrule(Fr,2)","Joint_Displacement(JD,4)", "Surface_Damage(S,3)","Root_Blockage(R,3)","Sludge_Accumulation(Sl,3)","Stone(St,3)"]

@@ -1,0 +1,51 @@
+train: C:/Users/User/Desktop/Europe_stage1/images/train 
+
+#val:  /content/drive/MyDrive/Colab_Notebooks/Pipe_defect_detection/Updated_FW_V5_Dataset/images/val
+val: C:/Users/User/Desktop/Europe_stage1/images/val
+
+# number of classes
+#nc: 11
+
+# class names
+
+names:
+  0: Encrustation(BBB,3) 
+  1: Ferrule(BAG,2) #not present drive and local
+  2: Joint_Displacement(BAJ,4) 
+  3: Surface_damage(BAF,2) 
+  4: Root_Blockage(BBA,3)
+  5: Sludge_Accumulation(BBC,3)
+  6: Other Obstacle(BBE,4) #not present # stone  shoudl add in drive and local
+  7: Other Obstacle (BBE,4) #pb
+  8: Other Obstacle (BBE,4) #cb
+  9: Fracture_(BAC,3)
+  10: Infiltration (BBF,3)
+  11: Deformed (BAA,3)
+  12: Crack_L (BAB,1)
+  13: Crack_C (BAB,1)
+
+
+
+#new changed euro yaml to match all the yaml 
+
+
+
+
+# names:
+#   0: Encrustation(BBB,3) # 0:0
+#   1: Joint_Displacement(BAJ,4) # 2:1
+#   2: Surface_damage(BAF,2) # 3:2
+#   3: Root_Blockage(BBA,3) # 4:3
+#   4: Sludge_Accumulation(BBC,3) # 5:4
+#   5: Partial_Blockage (BBE,4) # 7:5
+#   6: Complete Blockage (BBE,4) # 8:6
+#   7: Fracture_(BAC,3) # 9:7
+#   8: Infiltration (BBF,3) # 10:8
+#   9: Deformed (BAA,3) # 11:9
+#   10: Crack_L (BAB,1) # 12:10
+#   11: Crack_C (BAB,1) # 13:11   
+
+#This is the old European Yaml with 12 classes [ferrule,Stone] not incuded
+
+
+
